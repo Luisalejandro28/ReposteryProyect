@@ -5,80 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mach Inspecciones C.A</title>
     <link rel="icon" href="../Imagenes/logo.png">
-    <!--Font Style-->
-    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap" rel="stylesheet">
-    <!--BOOTSTRAP-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <!--CSS-->
     <link rel="stylesheet" href="../Css/style.css">
+    <!--Font Style-->
+    <link href="https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <div class="container4">
         <header>
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="../index.html"><img class="logo" src="../Imagenes/logo.png" alt="img"></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./ensayos.html">Ensayos</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./inspeccion.html">Inspeccion</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" href="./contacto.html">Contacto</a>
-                      </li>                          
-                    </ul>
-                  </div>
-                </div>
-              </nav>
+            <nav>
+                <img class="logo" src="../Imagenes/logo.png" alt="imagen">
+                <li><a id="text-nav" href="../index.html">Inicio</a></li>
+                <li><a id="text-nav" href="./ensayos.html">Ensayos</a></li>
+                <li><a id="text-nav" href="./inspeccion.html">Inspeccion</a></li>
+                <li><a id="text-nav" href="./nosotros.html">Nosotros</a></li>
+                <input class="what" type="image" src="../Imagenes/whatsapp.png" alt="image">
+            </nav>
         </header>
-        <section>
-          <div class="contacto">
-            <form>
-              <h1 class="conPosition" >Contactanos</h1>            
-              <div class="row mb-3">
-                <label for="inputnombre" class="col-sm-4 col-form-label">Nombre</label>
-                <div class="col-sm-10">
-                  <input type="Nombre" class="form-control" id="inputnombre">
-                </div>
-              </div>
-              <div class="row mb-3">
-                <label for="inputapellido" class="col-sm-4 col-form-label">Apellido</label>
-                <div class="col-sm-10">
-                  <input type="Apellido" class="form-control" id="inputapellido">
-                </div>
-              </div>
-              <div class="row mb-3">
-                <label for="inputcorreo" class="col-sm-4 col-form-label">Correo</label>
-                <div class="col-sm-10">
-                  <input type="email" class="form-control" id="inputcorreo">
-                </div>
-              </div>
-              <div class="row mb-3">
-                <label important for="inputTelefono" class="col-sm-4 col-form-label">Telefono</label>
-                <div class="col-sm-10">
-                  <input type="number" class="form-control" id="inputTelefono">
-                </div>
-              </div>
-              <fieldset class="row mb-3">
-                <textarea name="Comentario" id="" cols="30" rows="10"></textarea>
-              </fieldset>
-              <button type="submit" class="btn btn-primary">Enviar</button>
-              <button type="reset" class="btn btn-primary">Borrar Campos</button>
-            </form>
-          </div>
+        <section class="contactoAll">
+            <h1 class="contacto">Contactanos</h1>
+            <form action="">
+                <fieldset class="campo">
+                    <legend>Informacion Personal</legend>
+                     <div>                         
+                         <label for="name">Nombre</label>
+                         <input type="text" name="name">
+                    </div>                     
+                    <div>
+                        <label for="lastName">Apellido</label>
+                        <input type="text" name="lastName" id="">
+                    </div>                      
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" required>
+                    </div>                    
+                    <div>
+                        <label for="telefono">Telefono</label>
+                        <input type="text" name="telefono" required>
+                    </div>
+                    <div>
+                         <textarea name="" id="" cols="30" rows="10"></textarea>
+                         <input class="boton" type="submit" value="Enviar">
+                         <input class="boton" type="reset" value="Limpiar Campos">
+                    </div>
+                     
+                </fieldset>
+             </form>.
         </section>
         <footer>
             <li><a id="text-nav" href="../index.html">Inicio</a></li>
@@ -87,6 +60,6 @@
             <li><a id="text-nav" href="./nosotros.html">Nosotros</a></li>
         </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    
 </body>
 </html>.
