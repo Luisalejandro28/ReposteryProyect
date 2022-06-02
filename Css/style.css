@@ -2,7 +2,7 @@ body{
     margin: 10px;
 }
 footer{
-    height: 25vh;
+    height: 15vh;
     list-style: none;
     display: flex;
     flex-direction: row;
