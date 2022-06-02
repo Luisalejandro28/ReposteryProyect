@@ -53,10 +53,6 @@ h1{
 .nosotros{
     background-color: white;
 }
-.size1{
-    width: auto;
-    margin-right: 150px;
-}
 .contacto{
     display: flex;
     flex-direction: row;
