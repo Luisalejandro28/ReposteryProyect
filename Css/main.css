@@ -82,6 +82,8 @@ li a:hover {
 .label:focus {
   color: aqua; }
 
-.contInsp {
+/*Variables*/
+/*SASS*/
+.contInsp .article1 {
   border: 3px solid black;
   border-radius: 5px; }

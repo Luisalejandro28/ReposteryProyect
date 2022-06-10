@@ -82,7 +82,17 @@ li a:hover{
 .label:focus{
     color: aqua;
 }
-.contInsp{
-    border: 3px solid black;
-    border-radius: 5px;
+
+/*Variables*/
+$borde-insp: 3px solid black;
+$borde-radio: 5px;
+
+/*SASS*/
+.contInsp .article1{
+    border: $borde-insp;
+    border-radius: $borde-radio;
 }
+
+@import "./partes/reset.scss";
+@import "./partes/footer.scss";
+@import "./partes/vars.scss";
