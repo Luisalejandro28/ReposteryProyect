@@ -81,7 +81,7 @@ li a:hover {
 
 /*SASS*/
 footer {
-  background-color: A5BECC;
+  background-color: DFF6FF;
   height: 15vh;
   list-style: none;
   display: flex;
@@ -100,3 +100,6 @@ footer div {
 /*Variables*/
 .Contactos {
   box-sizing: content-box; }
+
+header {
+  background-color: DFF6FF; }
