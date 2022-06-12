@@ -1,0 +1,17 @@
+footer{
+    background-color: A5BECC;
+    height: 15vh;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;    
+}
+footer div{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
