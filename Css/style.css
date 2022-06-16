@@ -64,7 +64,11 @@ h1 {
   font-size: x-large; }
 
 .imgSize {
-  width: 25%; }
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%; }
 
 li a:hover {
   border-bottom: 1px solid black;
@@ -81,7 +85,7 @@ li a:hover {
 
 /*SASS*/
 footer {
-  background-color: DFF6FF;
+  background-color: A0F6D2;
   height: 15vh;
   list-style: none;
   display: flex;
@@ -98,8 +102,44 @@ footer div {
   align-items: center; }
 
 /*Variables*/
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.radio {
+  display: flex; }
+
+.article1 {
+  display: flex; }
+
+.nene {
+  border: 2px solid black;
+  margin-right: 20px; }
+
+.seccion1 {
+  display: flex;
+  justify-content: center; }
+
+.radio {
+  margin-left: 10px; }
+
 .Contactos {
   box-sizing: content-box; }
 
 header {
-  background-color: DFF6FF; }
+  background-color: A0F6D2; }
+
+/*MIXIN*/
+.card {
+  background-color: C8F2EF; }
+
+.card_info {
+  display: flex;
+  justify-content: space-around; }
+
+p {
+  margin: 10px; }
+
+/*MAP-GET*/

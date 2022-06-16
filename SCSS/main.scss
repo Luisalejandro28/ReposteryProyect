@@ -3,6 +3,23 @@
 @import "./partials/vars.scss";
 @import "./partials/ensayos.scss";
 @import "./partials/contacto.scss";
-@import "./partials/navbar.scss"
+@import "./partials/navbar.scss";
 
-
+/*MIXIN*/
+@mixin color ($colorSection) {
+    background-color: $colorSection; 
+}
+@mixin margin ($margenParrafo) {
+    margin:$margenParrafo;    
+}
+.card{
+    @include color(C8F2EF)
+}
+.card_info{
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    @include margin(10px)
+}
+/*MAP-GET*/
